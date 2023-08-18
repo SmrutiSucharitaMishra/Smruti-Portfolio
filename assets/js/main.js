@@ -73,7 +73,7 @@ const contactForm = document.getElementById("contact-form"),
           contactMessage.textContent = 'Write all the input field 📩'
         }else{
           //serviceID - templateID - #form - publicKey
-          emailjs.sendForm('service_sampad.sec','template_sampad.sec','#contact-form','K3kqUshbpI0PDUzcZ')
+          emailjs.sendForm('service_smruti','template_smruti ','#contact-form','zCrcAqjYD09N_rwWZ')
             .then (() =>{
               //Show message and add color
               contactMessage.classList.add ('color-blue')
